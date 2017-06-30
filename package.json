@@ -4,7 +4,8 @@
   "description": "A helpful NG2 project",
   "main": "main.ts",
   "scripts": {
-    "test": "karma start --single-run",
+    "build:watch": "tsc -p src/ -w",
+    "test": "concurrently \"npm run build:watch\" \"karma start karma.conf.js\"",
     "build": "webpack --progress --config webpack.config.js",
     "serve": "webpack-dev-server --inline --progress --config webpack.config.js",
     "mock": "dyson mock 9080"
