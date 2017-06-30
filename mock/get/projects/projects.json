@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "jim": [
+        {
+          "project": "Level 3",
+          "role": "developer",
+          "lengthInHours": "2080"
+        },
+        {
+          "project": "Kaiser Permanente",
+          "role": "developer",
+          "lengthInHours": "1020"
+        }
+      ]
+    },
+    {
+      "taylor": [
+        {
+          "project": "CAT",
+          "role": "developer",
+          "lengthInHours": "4160"
+        },
+        {
+          "project": "NASCO",
+          "role": "developer",
+          "lengthInHours": "40"
+        }
+      ]
+    },
+    {
+      "bill": [
+        {
+          "project": "Kaiser Permanente",
+          "role": "developer",
+          "lengthInHours": "228"
+        },
+        {
+          "project": "Scottrade",
+          "role": "developer",
+          "lengthInHours": "32"
+        }
+      ]
+    }
+  ]
+}

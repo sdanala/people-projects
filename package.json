@@ -6,7 +6,8 @@
   "scripts": {
     "test": "karma start --single-run",
     "build": "webpack --progress --config webpack.config.js",
-    "serve": "webpack-dev-server --inline --progress --config webpack.config.js"
+    "serve": "webpack-dev-server --inline --progress --config webpack.config.js",
+    "mock": "dyson mock 9080"
   },
   "repository": {
     "type": "git",
