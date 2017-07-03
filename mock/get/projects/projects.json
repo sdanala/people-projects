@@ -1,7 +1,8 @@
 {
   "data": [
     {
-      "jim": [
+      "name": "jim",
+      "details": [
         {
           "project": "Level 3",
           "role": "developer",
@@ -15,7 +16,8 @@
       ]
     },
     {
-      "taylor": [
+      "name": "taylor",
+      "details": [
         {
           "project": "CAT",
           "role": "developer",
@@ -29,7 +31,8 @@
       ]
     },
     {
-      "bill": [
+      "name": "bill",
+      "details": [
         {
           "project": "Kaiser Permanente",
           "role": "developer",
